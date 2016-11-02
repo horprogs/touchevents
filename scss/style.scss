@@ -1,0 +1,29 @@
+@import "_normalize";
+@import "_fonts";
+
+.grid {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 310px;
+  margin: auto;
+}
+
+.grid__item {
+  border: 1px solid #CCCCCC;
+  cursor: pointer;
+  flex-basis: 100px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.grid__item--selected {
+  background-color: #cccccc;
+  color: #FFF;
+}
+
+.js-result {
+  font-size: 18px;
+}
